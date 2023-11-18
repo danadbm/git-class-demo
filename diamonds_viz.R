@@ -8,5 +8,5 @@ library(dplyr)
 data("diamonds")
 
 # visualization
-ggplot(diamonds, aes(x = cut, y = clarity, color = color)) +
-    geom_point()
+ggplot(diamonds, aes(x = cut, y = clarity)) +
+    geom_point(color = 'purple')
